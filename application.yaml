@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kamsani1973/Group4-3.13.git
+    repoURL: https://github.com/kamsani1973/group4-3.13.git
     targetRevision: main
     path: .
   destination:
