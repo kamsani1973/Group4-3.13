@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: group4-app
+  name: kamsani-app
 spec:
   project: default
   source:
@@ -10,7 +10,7 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
-    namespace: group4-ns
+    namespace: kamsani-ns
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
